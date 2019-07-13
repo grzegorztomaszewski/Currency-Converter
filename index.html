@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="bodyId">
+    <section id="generalBoxId" class="generalBoxClass">
+        <p id="topText" class="topTextClass">Currency Converter</p>
+        <section id="topBoxId" class="topBoxClass">
+            <input id="inputId" class="inputClass" type="number" placeholder="enter a value">
+            <select id="selectId" class="selectClass">
+                <option>PLN</option>
+                <option>EUR</option>
+                <option>USD</option>
+                <option>AUD</option>
+                <option>GBP</option>
+                <option>CAD</option>
+                <option>HKD</option>
+                <option>JPY</option>
+                <option>CHF</option>
+            </select>
+            <button type="button" id="btConvert" class="myButton"><span>Convert </span></button>
+        </section>
+        <section id="midBoxId" class="midBoxClass">
+            <p id="dateId" class="dateClass"></p>
+        </section>
+        <section id="mainBoxId" class="mainBoxClass">
+            <table id="tableId" class="tableClass" >
+                <tr>
+                    <td><img class="imgClass" src="./img/flag-pln.jpg"></td>
+                    <td id="currencyJsonPln" class="currencyInner"></td>
+                    <td id="plnIdTb" class="shortClass"></td>
+                </tr>
+                <tr>
+                    <td><img class="imgClass" src="./img/flag-eur.jpg"></td>
+                    <td id="currencyJsonEur" class="currencyInner"></td>
+                    <td id="eurIdTb" class="shortClass"></td>
+                </tr>
+                <tr>
+                    <td><img class="imgClass" src="./img/flag-usd.jpg"></td>
+                    <td id="currencyJsonUsd" class="currencyInner"></td>
+                    <td id="usdIdTb" class="shortClass"></td>
+                </tr>
+                <tr>
+                    <td><img class="imgClass" src="./img/flag-aud.jpg"></td>
+                    <td id="currencyJsonAud" class="currencyInner"></td>
+                    <td id="audIdTb" class="shortClass"></td>
+                </tr>
+                <tr>
+                    <td><img class="imgClass" src="./img/flag-gbp.jpg"></td>
+                    <td id="currencyJsonGbp" class="currencyInner"></td>
+                    <td id="gbpIdTb" class="shortClass"></td>
+                </tr>
+                <tr>
+                    <td><img class="imgClass" src="./img/flag-cad.jpg"></td>
+                    <td id="currencyJsonCad" class="currencyInner"></td>
+                    <td id="cadIdTb" class="shortClass"></td>
+                </tr>
+                <tr>
+                    <td><img class="imgClass" src="./img/flag-hkd.jpg"></td>
+                    <td id="currencyJsonHkd" class="currencyInner"></td>
+                    <td id="hkdIdTb" class="shortClass"></td>
+                </tr>
+                <tr>
+                    <td><img class="imgClass" src="./img/flag-jpy.jpg"></td>
+                    <td id="currencyJsonJpy" class="currencyInner"></td>
+                    <td id="jpyIdTb" class="shortClass"></td>
+                </tr>
+                <tr>
+                    <td><img class="imgClasschf" src="./img/flag-chf.jpg"></td>
+                    <td id="currencyJsonChf" class="currencyInner"></td>
+                    <td id="chfIdTb" class="shortClass"></td>
+                </tr>
+            </table>
+        </section>
+    </section>
+    <script type="text/javascript" src="jquery-3.4.1.js"></script>
+    <script src="index.js"></script>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+.generalBoxClass{
+    width: 30%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgb(13, 72, 128),rgb(122, 167, 224), rgb(13, 77, 138));
+    padding: 0.1% 0% 2% 0%;
+    border-radius: 15px;
+    border: 2px solid rgb(7, 0, 37);
+}
+.topBoxClass{
+    width: 98%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.midBoxClass{
+    display: block;
+    width: 98%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mainBoxClass{
+    padding: 2%;
+    margin: auto;
+}
+.tableClass{
+    width: 60%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-image: linear-gradient(rgb(4, 64, 121),rgb(103, 146, 202),rgb(4, 64, 121));
+}
+#bodyId{
+    background-image: linear-gradient(rgb(1, 33, 63),rgb(69, 105, 151),rgb(1, 33, 63));
+}
+.imgClass{
+    width: 40px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10%;
+}
+.imgClasschf{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    padding: 6%;
+    margin: 10% 0% 0% 15%;
+}
+.currencyInner{
+    text-align: left;
+    padding: 5%;
+}
+#btConvert{
+    margin: 0% 0% 0% 2%;
+    padding: 7px 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background-color: #0563da;
+    border: none;
+    border-radius: 5px;
+}
+#btConvert:hover{
+    background-color: #0563af
+}
+#btConvert:active{
+    background-color: #0563af;
+    transform: translateY(1px);
+}
+.shortClass{
+    text-align: center;
+}
+.inputClass{
+    padding: 6px 10px;
+    border-radius: 5px;
+    margin: 0% 3% 0% 0%;
+    max-width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #0563af;
+    background-color: #e6f0ff;
+    color: black;
+}
+/*Select list*/
+.topBoxClass select {
+    background-color: #0563da;
+    color: white;
+    padding: 7px;
+    border: none;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    border-radius: 6px;
+}
+.topBoxClass select option {
+    padding: 30px;
+}
+.topTextClass{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 5% 0% 2% 0%;
+}
+.dateClass{
+    text-align: center;
+    font-size: 18px;
+    margin: 4% 0% 4% 0%;
+    text-align: center;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #c3d8ff41;
+}
+table, th, td {
+    border: 1px solid black;
+}
